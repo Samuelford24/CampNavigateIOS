@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>488343457183-lfu85arjgvfle5i3ane62tejf177v3ep.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.488343457183-lfu85arjgvfle5i3ane62tejf177v3ep</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>488343457183-b6hgkuq3tjt8ofvtkdh80b4vjbjsfqf8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDkyQWxHN9f4D5utS2XFL2ItXSCUVNoec</string>
+	<key>GCM_SENDER_ID</key>
+	<string>488343457183</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>samuel.CampNavigateIOS</string>
+	<key>PROJECT_ID</key>
+	<string>campnavigate-5d1f6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>campnavigate-5d1f6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:488343457183:ios:94ecd1810517f438f2c1aa</string>
+	<key>DATABASE_URL</key>
+	<string>https://campnavigate-5d1f6.firebaseio.com</string>
+</dict>
+</plist>

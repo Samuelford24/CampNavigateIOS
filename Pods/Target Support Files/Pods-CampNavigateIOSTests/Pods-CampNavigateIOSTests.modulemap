@@ -1,0 +1,6 @@
+framework module Pods_CampNavigateIOSTests {
+  umbrella header "Pods-CampNavigateIOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E24E21324394E2F002F8E5C /* FIeldTripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E21224394E2F002F8E5C /* FIeldTripController.swift */; };
+		3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E214243BFF37002F8E5C /* AdminLogin.swift */; };
+		3E24E217243C05D0002F8E5C /* AdminMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E216243C05D0002F8E5C /* AdminMenu.swift */; };
+		3E24E219243C05DD002F8E5C /* AdminFieldTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */; };
+		3ECCC540243804F2009E24C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC53F243804F2009E24C8 /* AppDelegate.swift */; };
+		3ECCC542243804F2009E24C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC541243804F2009E24C8 /* SceneDelegate.swift */; };
+		3ECCC544243804F2009E24C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC543243804F2009E24C8 /* FirstViewController.swift */; };
+		3ECCC546243804F2009E24C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC545243804F2009E24C8 /* SecondViewController.swift */; };
+		3ECCC549243804F2009E24C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECCC547243804F2009E24C8 /* Main.storyboard */; };
+		3ECCC54B243804F5009E24C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECCC54A243804F5009E24C8 /* Assets.xcassets */; };
+		3ECCC54E243804F5009E24C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECCC54C243804F5009E24C8 /* LaunchScreen.storyboard */; };
+		3ECCC559243804F5009E24C8 /* CampNavigateIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC558243804F5009E24C8 /* CampNavigateIOSTests.swift */; };
+		3ECCC564243804F5009E24C8 /* CampNavigateIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC563243804F5009E24C8 /* CampNavigateIOSUITests.swift */; };
+		3ECCC57224380AB5009E24C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ECCC57124380AB5009E24C8 /* GoogleService-Info.plist */; };
+		3ECCC57424380D37009E24C8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57324380D37009E24C8 /* MenuViewController.swift */; };
+		3ECCC57624380D4F009E24C8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57524380D4F009E24C8 /* Menu.swift */; };
+		3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57724380D6B009E24C8 /* FieldTrip.swift */; };
+		3ECCC57A24380DA7009E24C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57924380DA7009E24C8 /* ViewController.swift */; };
+		B075416BACAF780B75D103BC /* Pods_CampNavigateIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */; };
+		E82766E6C2E14E50AE078CC7 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */; };
+		FDDDCEC4C492AE8C9B1DEC26 /* Pods_CampNavigateIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECCC555243804F5009E24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECCC534243804F2009E24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECCC53B243804F2009E24C8;
+			remoteInfo = CampNavigateIOS;
+		};
+		3ECCC560243804F5009E24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECCC534243804F2009E24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECCC53B243804F2009E24C8;
+			remoteInfo = CampNavigateIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234AA44EB9484229CF41DC1B /* Pods-CampNavigateIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.release.xcconfig"; sourceTree = "<group>"; };
+		27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E24E21224394E2F002F8E5C /* FIeldTripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIeldTripController.swift; sourceTree = "<group>"; };
+		3E24E214243BFF37002F8E5C /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
+		3E24E216243C05D0002F8E5C /* AdminMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMenu.swift; sourceTree = "<group>"; };
+		3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFieldTrip.swift; sourceTree = "<group>"; };
+		3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampNavigateIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECCC53F243804F2009E24C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECCC541243804F2009E24C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3ECCC543243804F2009E24C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3ECCC545243804F2009E24C8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3ECCC548243804F2009E24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECCC54A243804F5009E24C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECCC54D243804F5009E24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ECCC54F243804F5009E24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECCC554243804F5009E24C8 /* CampNavigateIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampNavigateIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECCC558243804F5009E24C8 /* CampNavigateIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampNavigateIOSTests.swift; sourceTree = "<group>"; };
+		3ECCC55A243804F5009E24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECCC55F243804F5009E24C8 /* CampNavigateIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampNavigateIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECCC563243804F5009E24C8 /* CampNavigateIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampNavigateIOSUITests.swift; sourceTree = "<group>"; };
+		3ECCC565243804F5009E24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECCC57124380AB5009E24C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3ECCC57324380D37009E24C8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3ECCC57524380D4F009E24C8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3ECCC57724380D6B009E24C8 /* FieldTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTrip.swift; sourceTree = "<group>"; };
+		3ECCC57924380DA7009E24C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_CampNavigateIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE6A19C7AC665BC3BAFE5C11 /* Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECCC539243804F2009E24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B075416BACAF780B75D103BC /* Pods_CampNavigateIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC551243804F5009E24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDCEC4C492AE8C9B1DEC26 /* Pods_CampNavigateIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC55C243804F5009E24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82766E6C2E14E50AE078CC7 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECCC533243804F2009E24C8 = {
+			isa = PBXGroup;
+			children = (
+				3ECCC53E243804F2009E24C8 /* CampNavigateIOS */,
+				3ECCC557243804F5009E24C8 /* CampNavigateIOSTests */,
+				3ECCC562243804F5009E24C8 /* CampNavigateIOSUITests */,
+				3ECCC53D243804F2009E24C8 /* Products */,
+				988BE07D5DD279AF20DD38E4 /* Pods */,
+				61817B1BAEFAF9098BDC75A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECCC53D243804F2009E24C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */,
+				3ECCC554243804F5009E24C8 /* CampNavigateIOSTests.xctest */,
+				3ECCC55F243804F5009E24C8 /* CampNavigateIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECCC53E243804F2009E24C8 /* CampNavigateIOS */ = {
+			isa = PBXGroup;
+			children = (
+				3ECCC53F243804F2009E24C8 /* AppDelegate.swift */,
+				3ECCC541243804F2009E24C8 /* SceneDelegate.swift */,
+				3ECCC543243804F2009E24C8 /* FirstViewController.swift */,
+				3ECCC545243804F2009E24C8 /* SecondViewController.swift */,
+				3ECCC57724380D6B009E24C8 /* FieldTrip.swift */,
+				3ECCC57924380DA7009E24C8 /* ViewController.swift */,
+				3ECCC57324380D37009E24C8 /* MenuViewController.swift */,
+				3ECCC57524380D4F009E24C8 /* Menu.swift */,
+				3E24E214243BFF37002F8E5C /* AdminLogin.swift */,
+				3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */,
+				3E24E21224394E2F002F8E5C /* FIeldTripController.swift */,
+				3ECCC547243804F2009E24C8 /* Main.storyboard */,
+				3E24E216243C05D0002F8E5C /* AdminMenu.swift */,
+				3ECCC54A243804F5009E24C8 /* Assets.xcassets */,
+				3ECCC54C243804F5009E24C8 /* LaunchScreen.storyboard */,
+				3ECCC54F243804F5009E24C8 /* Info.plist */,
+				3ECCC57124380AB5009E24C8 /* GoogleService-Info.plist */,
+			);
+			path = CampNavigateIOS;
+			sourceTree = "<group>";
+		};
+		3ECCC557243804F5009E24C8 /* CampNavigateIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECCC558243804F5009E24C8 /* CampNavigateIOSTests.swift */,
+				3ECCC55A243804F5009E24C8 /* Info.plist */,
+			);
+			path = CampNavigateIOSTests;
+			sourceTree = "<group>";
+		};
+		3ECCC562243804F5009E24C8 /* CampNavigateIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECCC563243804F5009E24C8 /* CampNavigateIOSUITests.swift */,
+				3ECCC565243804F5009E24C8 /* Info.plist */,
+			);
+			path = CampNavigateIOSUITests;
+			sourceTree = "<group>";
+		};
+		61817B1BAEFAF9098BDC75A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */,
+				7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */,
+				B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		988BE07D5DD279AF20DD38E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */,
+				234AA44EB9484229CF41DC1B /* Pods-CampNavigateIOS.release.xcconfig */,
+				BE6A19C7AC665BC3BAFE5C11 /* Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig */,
+				BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */,
+				C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */,
+				B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECCC53B243804F2009E24C8 /* CampNavigateIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECCC568243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOS" */;
+			buildPhases = (
+				94BEBCC3EA51AFDAB7829175 /* [CP] Check Pods Manifest.lock */,
+				3ECCC538243804F2009E24C8 /* Sources */,
+				3ECCC539243804F2009E24C8 /* Frameworks */,
+				3ECCC53A243804F2009E24C8 /* Resources */,
+				176E02A3419AE9EA5F91D75F /* [CP] Embed Pods Frameworks */,
+				5B6E0E8AF5D5944247EED425 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampNavigateIOS;
+			productName = CampNavigateIOS;
+			productReference = 3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECCC553243804F5009E24C8 /* CampNavigateIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECCC56B243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOSTests" */;
+			buildPhases = (
+				28E4895A2096172197965D6D /* [CP] Check Pods Manifest.lock */,
+				3ECCC550243804F5009E24C8 /* Sources */,
+				3ECCC551243804F5009E24C8 /* Frameworks */,
+				3ECCC552243804F5009E24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECCC556243804F5009E24C8 /* PBXTargetDependency */,
+			);
+			name = CampNavigateIOSTests;
+			productName = CampNavigateIOSTests;
+			productReference = 3ECCC554243804F5009E24C8 /* CampNavigateIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ECCC55E243804F5009E24C8 /* CampNavigateIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECCC56E243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOSUITests" */;
+			buildPhases = (
+				DCE45086ADB38880808E7DBE /* [CP] Check Pods Manifest.lock */,
+				3ECCC55B243804F5009E24C8 /* Sources */,
+				3ECCC55C243804F5009E24C8 /* Frameworks */,
+				3ECCC55D243804F5009E24C8 /* Resources */,
+				8B2E9CD2EB855D485E83B857 /* [CP] Embed Pods Frameworks */,
+				26A039C7668E8FF3924F5C13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECCC561243804F5009E24C8 /* PBXTargetDependency */,
+			);
+			name = CampNavigateIOSUITests;
+			productName = CampNavigateIOSUITests;
+			productReference = 3ECCC55F243804F5009E24C8 /* CampNavigateIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECCC534243804F2009E24C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Camp Navigate";
+				TargetAttributes = {
+					3ECCC53B243804F2009E24C8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3ECCC553243804F5009E24C8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3ECCC53B243804F2009E24C8;
+					};
+					3ECCC55E243804F5009E24C8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3ECCC53B243804F2009E24C8;
+					};
+				};
+			};
+			buildConfigurationList = 3ECCC537243804F2009E24C8 /* Build configuration list for PBXProject "CampNavigateIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECCC533243804F2009E24C8;
+			productRefGroup = 3ECCC53D243804F2009E24C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECCC53B243804F2009E24C8 /* CampNavigateIOS */,
+				3ECCC553243804F5009E24C8 /* CampNavigateIOSTests */,
+				3ECCC55E243804F5009E24C8 /* CampNavigateIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECCC53A243804F2009E24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECCC54E243804F5009E24C8 /* LaunchScreen.storyboard in Resources */,
+				3ECCC54B243804F5009E24C8 /* Assets.xcassets in Resources */,
+				3ECCC57224380AB5009E24C8 /* GoogleService-Info.plist in Resources */,
+				3ECCC549243804F2009E24C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC552243804F5009E24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC55D243804F5009E24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176E02A3419AE9EA5F91D75F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26A039C7668E8FF3924F5C13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E4895A2096172197965D6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6E0E8AF5D5944247EED425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2E9CD2EB855D485E83B857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BEBCC3EA51AFDAB7829175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE45086ADB38880808E7DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOS-CampNavigateIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECCC538243804F2009E24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECCC57624380D4F009E24C8 /* Menu.swift in Sources */,
+				3E24E21324394E2F002F8E5C /* FIeldTripController.swift in Sources */,
+				3ECCC546243804F2009E24C8 /* SecondViewController.swift in Sources */,
+				3ECCC57424380D37009E24C8 /* MenuViewController.swift in Sources */,
+				3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */,
+				3ECCC544243804F2009E24C8 /* FirstViewController.swift in Sources */,
+				3ECCC540243804F2009E24C8 /* AppDelegate.swift in Sources */,
+				3E24E217243C05D0002F8E5C /* AdminMenu.swift in Sources */,
+				3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */,
+				3ECCC57A24380DA7009E24C8 /* ViewController.swift in Sources */,
+				3ECCC542243804F2009E24C8 /* SceneDelegate.swift in Sources */,
+				3E24E219243C05DD002F8E5C /* AdminFieldTrip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC550243804F5009E24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECCC559243804F5009E24C8 /* CampNavigateIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECCC55B243804F5009E24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECCC564243804F5009E24C8 /* CampNavigateIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECCC556243804F5009E24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECCC53B243804F2009E24C8 /* CampNavigateIOS */;
+			targetProxy = 3ECCC555243804F5009E24C8 /* PBXContainerItemProxy */;
+		};
+		3ECCC561243804F5009E24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECCC53B243804F2009E24C8 /* CampNavigateIOS */;
+			targetProxy = 3ECCC560243804F5009E24C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECCC547243804F2009E24C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECCC548243804F2009E24C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECCC54C243804F5009E24C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECCC54D243804F5009E24C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECCC566243804F5009E24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECCC567243804F5009E24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECCC569243804F5009E24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECCC56A243804F5009E24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234AA44EB9484229CF41DC1B /* Pods-CampNavigateIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ECCC56C243804F5009E24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNavigateIOS.app/CampNavigateIOS";
+			};
+			name = Debug;
+		};
+		3ECCC56D243804F5009E24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNavigateIOS.app/CampNavigateIOS";
+			};
+			name = Release;
+		};
+		3ECCC56F243804F5009E24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6A19C7AC665BC3BAFE5C11 /* Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampNavigateIOS;
+			};
+			name = Debug;
+		};
+		3ECCC570243804F5009E24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = CampNavigateIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampNavigateIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECCC537243804F2009E24C8 /* Build configuration list for PBXProject "CampNavigateIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECCC566243804F5009E24C8 /* Debug */,
+				3ECCC567243804F5009E24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECCC568243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECCC569243804F5009E24C8 /* Debug */,
+				3ECCC56A243804F5009E24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECCC56B243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECCC56C243804F5009E24C8 /* Debug */,
+				3ECCC56D243804F5009E24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECCC56E243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECCC56F243804F5009E24C8 /* Debug */,
+				3ECCC570243804F5009E24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECCC534243804F2009E24C8 /* Project object */;
+}
