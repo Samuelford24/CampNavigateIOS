@@ -14,6 +14,7 @@ class FieldTripCell: UICollectionViewCell {
     @IBOutlet weak var when: UILabel!
     @IBOutlet weak var bring: UILabel!
     
+
 }
 class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     
@@ -60,11 +61,21 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
         cell.where?.text="Where: " + FT.wheree!
         cell.when?.text="When: " + FT.when!
         cell.bring?.text="Bring: " + FT.bring!
-        
+        cell.contentView.layer.cornerRadius = 4.0
+              cell.contentView.layer.borderWidth = 1.0
+              cell.contentView.layer.borderColor = UIColor.black.cgColor
+              cell.contentView.layer.masksToBounds = false
+              cell.layer.shadowColor = UIColor.gray.cgColor
+              cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+              cell.layer.shadowRadius = 4.0
+              cell.layer.shadowOpacity = 1.0
+              cell.layer.masksToBounds = false
+              cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
+              
 
-           cell.contentView.layer.borderWidth = 1.0
-          cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
-           cell.contentView.layer.borderColor = UIColor.black.cgColor
+          // cell.contentView.layer.borderWidth = 1.0
+         // cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+           //cell.contentView.layer.borderColor = UIColor.black.cgColor
           
         return cell
     }

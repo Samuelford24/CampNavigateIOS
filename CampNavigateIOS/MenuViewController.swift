@@ -10,16 +10,17 @@ import UIKit
 import Firebase
 
 class MenuCell: UICollectionViewCell {
-  
     @IBOutlet weak var day: UILabel!
     @IBOutlet weak var breakfast: UILabel!
     @IBOutlet weak var lunch: UILabel!
+    
+    
 }
 class MenuViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var passedReference: String!
     @IBOutlet weak var cv: UICollectionView!
     
-    
+    var documentID=[String]()
     var menuArray=[Menu]()
     override func viewDidLoad() {
            super.viewDidLoad()
@@ -38,12 +39,13 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
             //print("Current data: \(snapshot.documents.map { $0.data() })")
         self.menuArray.removeAll()
+        self.documentID.removeAll()
             for document in snapshot.documents{
                 let  temp = Menu(dictionary: document.data())
                 print(temp.breakfast)
               print(temp)
                 self.menuArray.append(temp)
-                
+                self.documentID.append(document.documentID)
                
             }
         self.cv.reloadData()
@@ -79,10 +81,20 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let menuItem = menuArray[indexPath.row]
     print("In cell",menuItem.breakfast)
 
-    cell.contentView.layer.borderWidth = 1.0
-   cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
-    cell.contentView.layer.borderColor = UIColor.black.cgColor
-    
+   //cell.contentView.layer.borderWidth = 1.0
+   //cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+   // cell.contentView.layer.borderColor = UIColor.black.cgColor
+    cell.contentView.layer.cornerRadius = 4.0
+          cell.contentView.layer.borderWidth = 1.0
+          cell.contentView.layer.borderColor = UIColor.black.cgColor
+          cell.contentView.layer.masksToBounds = false
+          cell.layer.shadowColor = UIColor.gray.cgColor
+          cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+          cell.layer.shadowRadius = 4.0
+          cell.layer.shadowOpacity = 1.0
+          cell.layer.masksToBounds = false
+          cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
+          
    
   
     
@@ -95,4 +107,15 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
         // let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "menu", for: indexPath) as! MenuCell
     //return cell
      }
+  /*  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let m=menuArray[indexPath.row]
+        let t = documentID[indexPath.row]
+        
+    performSegue(withIdentifier: "edit", sender: self)
+    }
+  */
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+             if (segue.identifier=="edit") {
+}
+}
 }
