@@ -16,6 +16,7 @@ class AnnouncementCell: UICollectionViewCell {
 class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var AnnouncementArray=[Announcement]()
   
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     @IBOutlet weak var CV: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,8 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
    
     func retrieveData(){
+        self.loading.startAnimating()
+      
          let reference = Firestore.firestore().collection("Announcements").addSnapshotListener(){ querySnapshot, error in
         
              guard let snapshot = querySnapshot else {
@@ -43,7 +46,11 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
                  
                 
              }
+              self.loading.stopAnimating()
+            
          self.CV.reloadData()
+            
+          
          }
          
            

@@ -21,6 +21,7 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
     
     var fieldTripsArray=[FieldTrip]()
     @IBOutlet weak var cv: UICollectionView!
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,6 +29,7 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
         retrieveData();
     }
     func retrieveData(){
+        self.loading.startAnimating()
         let reference = Firestore.firestore().collection("week").document("FieldTrips").collection("FieldTripEntries").addSnapshotListener(){ querySnapshot, error in
        
             guard let snapshot = querySnapshot else {
@@ -46,6 +48,7 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
                 
                
             }
+            self.loading.stopAnimating()
         self.cv.reloadData()
         }
         

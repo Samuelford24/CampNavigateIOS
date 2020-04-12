@@ -133,6 +133,10 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
+                                <activityIndicatorView key="backgroundView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" id="Ee8-Vg-dQW">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="577"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ft" id="5Vo-Mu-61m" customClass="FieldTripCell" customModule="CampNavigateIOS" customModuleProvider="target">
                                         <rect key="frame" x="34.666666666666664" y="0.0" width="345" height="199"/>
@@ -206,6 +210,7 @@
                     <navigationItem key="navigationItem" id="Tka-va-VUE"/>
                     <connections>
                         <outlet property="cv" destination="ZKE-uC-yIL" id="50K-3g-wSK"/>
+                        <outlet property="loading" destination="Ee8-Vg-dQW" id="BXQ-y1-s9j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyW-CQ-PDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -279,13 +284,18 @@
                                     <outlet property="delegate" destination="s52-ir-xeL" id="iCm-Yj-eFM"/>
                                 </connections>
                             </collectionView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gPe-qD-QKm">
+                                <rect key="frame" x="188.66666666666666" y="320" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="YMv-Vn-ARV" firstAttribute="bottom" secondItem="pUg-Mu-bf0" secondAttribute="bottom" id="8IW-9m-65q"/>
                             <constraint firstItem="YMv-Vn-ARV" firstAttribute="leading" secondItem="pUg-Mu-bf0" secondAttribute="leading" id="93j-es-1nP"/>
+                            <constraint firstItem="gPe-qD-QKm" firstAttribute="centerX" secondItem="YMv-Vn-ARV" secondAttribute="centerX" id="Jym-s4-grJ"/>
                             <constraint firstItem="YMv-Vn-ARV" firstAttribute="top" secondItem="pUg-Mu-bf0" secondAttribute="top" constant="19" id="Who-gh-TUP"/>
                             <constraint firstItem="YMv-Vn-ARV" firstAttribute="centerX" secondItem="KtF-Pe-0bW" secondAttribute="centerX" id="Zcz-ka-K8K"/>
+                            <constraint firstItem="gPe-qD-QKm" firstAttribute="top" secondItem="pUg-Mu-bf0" secondAttribute="top" constant="276" id="hHB-zi-hjj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pUg-Mu-bf0"/>
                     </view>
@@ -293,6 +303,7 @@
                     <navigationItem key="navigationItem" id="LAf-zc-8L8"/>
                     <connections>
                         <outlet property="cv" destination="YMv-Vn-ARV" id="9dF-QU-Y8c"/>
+                        <outlet property="loading" destination="gPe-qD-QKm" id="Mxl-hg-5MT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9J-9Y-Ojt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -354,6 +365,11 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
+                                <activityIndicatorView key="backgroundView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" id="2lO-A2-pIf">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </activityIndicatorView>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="announcement" id="Jq5-ZR-PMv" customClass="AnnouncementCell" customModule="CampNavigateIOS" customModuleProvider="target">
                                         <rect key="frame" x="29" y="0.0" width="356" height="277"/>
@@ -436,6 +452,7 @@
                     <tabBarItem key="tabBarItem" title="Announcements" id="6hn-dE-h9s"/>
                     <connections>
                         <outlet property="CV" destination="RqP-YE-eZc" id="HQv-pw-0oE"/>
+                        <outlet property="loading" destination="2lO-A2-pIf" id="d5U-KC-1pS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Zt-7r-zoy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

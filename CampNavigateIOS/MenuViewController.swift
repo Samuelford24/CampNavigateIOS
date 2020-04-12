@@ -20,6 +20,7 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var passedReference: String!
     @IBOutlet weak var cv: UICollectionView!
     
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     var documentID=[String]()
     var menuArray=[Menu]()
     override func viewDidLoad() {
@@ -30,7 +31,8 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
        }
     
     func retrieveData()  {
-       Firestore.firestore().collection(passedReference).document("Menu").collection("MenuEntries").addSnapshotListener(){ querySnapshot, error in
+        self.loading.startAnimating()
+        Firestore.firestore().collection(passedReference).document("Menu").collection("MenuEntries").addSnapshotListener(){ querySnapshot, error in
         print(querySnapshot)
             guard let snapshot = querySnapshot else {
                 print("Error retreiving snapshots \(error!)")
@@ -48,6 +50,7 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 self.documentID.append(document.documentID)
                
             }
+            self.loading.stopAnimating()
         self.cv.reloadData()
         }
           /*      let temp = Menu(dictionary: document.data())
