@@ -29,6 +29,9 @@
 		3ECCC57624380D4F009E24C8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57524380D4F009E24C8 /* Menu.swift */; };
 		3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57724380D6B009E24C8 /* FieldTrip.swift */; };
 		3ECCC57A24380DA7009E24C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCC57924380DA7009E24C8 /* ViewController.swift */; };
+		3EE29A0C2448EE8700A75DBF /* AccessCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE29A0B2448EE8700A75DBF /* AccessCode.swift */; };
+		3EFCC883244A7FF100D2AF0E /* Moview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC882244A7FF100D2AF0E /* Moview.swift */; };
+		3EFCC885244A827200D2AF0E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC884244A827200D2AF0E /* Movie.swift */; };
 		B075416BACAF780B75D103BC /* Pods_CampNavigateIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */; };
 		E82766E6C2E14E50AE078CC7 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */; };
 		FDDDCEC4C492AE8C9B1DEC26 /* Pods_CampNavigateIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */; };
@@ -62,7 +65,7 @@
 		3E7CA085243EA79A00A1EACA /* AdminAnnouncement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAnnouncement.swift; sourceTree = "<group>"; };
 		3E7CA087243EB6C700A1EACA /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 		3E7CA089243EB75100A1EACA /* AnnouncementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementVC.swift; sourceTree = "<group>"; };
-		3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampNavigateIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECCC53C243804F2009E24C8 /* Camp Navigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camp Navigate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECCC53F243804F2009E24C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECCC541243804F2009E24C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3ECCC543243804F2009E24C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +85,9 @@
 		3ECCC57524380D4F009E24C8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3ECCC57724380D6B009E24C8 /* FieldTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTrip.swift; sourceTree = "<group>"; };
 		3ECCC57924380DA7009E24C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EE29A0B2448EE8700A75DBF /* AccessCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessCode.swift; sourceTree = "<group>"; };
+		3EFCC882244A7FF100D2AF0E /* Moview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moview.swift; sourceTree = "<group>"; };
+		3EFCC884244A827200D2AF0E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_CampNavigateIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +140,7 @@
 		3ECCC53D243804F2009E24C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */,
+				3ECCC53C243804F2009E24C8 /* Camp Navigate.app */,
 				3ECCC554243804F5009E24C8 /* CampNavigateIOSTests.xctest */,
 				3ECCC55F243804F5009E24C8 /* CampNavigateIOSUITests.xctest */,
 			);
@@ -146,6 +152,7 @@
 			children = (
 				3ECCC53F243804F2009E24C8 /* AppDelegate.swift */,
 				3ECCC541243804F2009E24C8 /* SceneDelegate.swift */,
+				3EE29A0B2448EE8700A75DBF /* AccessCode.swift */,
 				3ECCC543243804F2009E24C8 /* FirstViewController.swift */,
 				3ECCC545243804F2009E24C8 /* SecondViewController.swift */,
 				3ECCC57724380D6B009E24C8 /* FieldTrip.swift */,
@@ -159,6 +166,8 @@
 				3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */,
 				3E24E21224394E2F002F8E5C /* FIeldTripController.swift */,
 				3ECCC547243804F2009E24C8 /* Main.storyboard */,
+				3EFCC882244A7FF100D2AF0E /* Moview.swift */,
+				3EFCC884244A827200D2AF0E /* Movie.swift */,
 				3E24E216243C05D0002F8E5C /* AdminMenu.swift */,
 				3ECCC54A243804F5009E24C8 /* Assets.xcassets */,
 				3ECCC54C243804F5009E24C8 /* LaunchScreen.storyboard */,
@@ -230,7 +239,7 @@
 			);
 			name = CampNavigateIOS;
 			productName = CampNavigateIOS;
-			productReference = 3ECCC53C243804F2009E24C8 /* CampNavigateIOS.app */;
+			productReference = 3ECCC53C243804F2009E24C8 /* Camp Navigate.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3ECCC553243804F5009E24C8 /* CampNavigateIOSTests */ = {
@@ -486,11 +495,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCC885244A827200D2AF0E /* Movie.swift in Sources */,
 				3ECCC57624380D4F009E24C8 /* Menu.swift in Sources */,
 				3E24E21324394E2F002F8E5C /* FIeldTripController.swift in Sources */,
 				3ECCC546243804F2009E24C8 /* SecondViewController.swift in Sources */,
 				3E7CA08A243EB75100A1EACA /* AnnouncementVC.swift in Sources */,
 				3ECCC57424380D37009E24C8 /* MenuViewController.swift in Sources */,
+				3EE29A0C2448EE8700A75DBF /* AccessCode.swift in Sources */,
 				3E7CA088243EB6C700A1EACA /* Announcement.swift in Sources */,
 				3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */,
 				3ECCC544243804F2009E24C8 /* FirstViewController.swift in Sources */,
@@ -499,6 +510,7 @@
 				3E4C3BE42442A70F00AB1342 /* Staff.swift in Sources */,
 				3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */,
 				3ECCC57A24380DA7009E24C8 /* ViewController.swift in Sources */,
+				3EFCC883244A7FF100D2AF0E /* Moview.swift in Sources */,
 				3ECCC542243804F2009E24C8 /* SceneDelegate.swift in Sources */,
 				3E7CA086243EA79A00A1EACA /* AdminAnnouncement.swift in Sources */,
 				3E24E219243C05DD002F8E5C /* AdminFieldTrip.swift in Sources */,
@@ -683,7 +695,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camp Navigate";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -702,7 +714,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camp Navigate";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

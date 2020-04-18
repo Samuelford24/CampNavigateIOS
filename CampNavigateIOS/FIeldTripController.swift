@@ -13,6 +13,7 @@ class FieldTripCell: UICollectionViewCell {
     @IBOutlet weak var `where`: UILabel!
     @IBOutlet weak var when: UILabel!
     @IBOutlet weak var bring: UILabel!
+    @IBOutlet weak var departing: UILabel!
     
 
 }
@@ -22,15 +23,18 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
     var fieldTripsArray=[FieldTrip]()
     @IBOutlet weak var cv: UICollectionView!
     @IBOutlet weak var loading: UIActivityIndicatorView!
+    var passedReference: String!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let defaults = UserDefaults.standard
+        passedReference = defaults.object(forKey: "WeekReference") as! String
         retrieveData();
     }
     func retrieveData(){
         self.loading.startAnimating()
-        let reference = Firestore.firestore().collection("week").document("FieldTrips").collection("FieldTripEntries").addSnapshotListener(){ querySnapshot, error in
+        let reference = Firestore.firestore().collection(passedReference).document("FieldTrips").collection("FieldTripEntries").addSnapshotListener(){ querySnapshot, error in
        
             guard let snapshot = querySnapshot else {
                 print("Error retreiving snapshots \(error!)")
@@ -60,6 +64,7 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ft", for: indexPath) as! FieldTripCell
            let FT = fieldTripsArray[indexPath.row]
+        cell.departing?.text="Departing: " + FT.departing!
         cell.day?.text=FT.day
         cell.where?.text="Where: " + FT.wheree!
         cell.when?.text="When: " + FT.when!

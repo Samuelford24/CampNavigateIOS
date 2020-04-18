@@ -14,6 +14,7 @@ class AdminFieldTrip: UIViewController {
     @IBOutlet weak var `where`: UITextField!
     @IBOutlet weak var when: UITextField!
     @IBOutlet weak var bring: UITextField!
+    @IBOutlet weak var departing: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,7 @@ class AdminFieldTrip: UIViewController {
                     "where": `where`.text!,
                     "when": when.text!,
                     "bring": bring.text!,
+                    "departing": departing.text!
                    
                 ]) { err in
                     if let err = err {

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var locationImage: UIImageView!
@@ -26,6 +27,43 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     
     override func viewDidLoad() {
+         
+       
+          /*    let ac = UIAlertController(title: "Please Enter Code", message: nil, preferredStyle: UIAlertController.Style.alert)
+                ac.addTextField { (textField : UITextField!) -> Void in
+                       textField.placeholder = "Enter code"
+                   }
+                       let OKaction = UIAlertAction(title: "Verify", style: UIAlertAction.Style.default, handler: { action in
+                            let entry=ac.textFields?.first
+                  
+                            let userCode = entry?.text
+                                    print(userCode)
+                            var ActualCode=""
+                            Firestore.firestore().collection("AccessCode").document("Code").getDocument(){ querySnapshot, error in
+                                print(querySnapshot)
+                                    guard let snapshot = querySnapshot else {
+                                        ac.message="Check your internet connection"
+                                        return
+                                    }
+                               ActualCode = querySnapshot?.get("code") as! String
+                                print("Actual Code",ActualCode)
+                            }
+            
+                            if(ActualCode==userCode){
+                                "1"
+                                defaults.set(code, forKey: "Code")
+                              
+                             }
+                            else{
+                                ac.title="Incorrect Code"
+                                ac.message="Please Enter a correct code"
+                            }
+                            
+           })
+                       //  ac.addAction(OKaction)
+                        present(ac, animated: true, completion: nil)*/
+            
+
     }
 
     
@@ -63,6 +101,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
      
         //let currentCell = collectionView.cellForItem(at: indexpath) as! custom_class_cell
         //print(currentCell)
+        let defaults = UserDefaults.standard
         switch indexPath.row {
             case 0:
             weekReference="Week1"
@@ -87,10 +126,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         default:
             weekReference="none"
         }
+        defaults.set(weekReference, forKey: "WeekReference")
         performSegue(withIdentifier: "show_week", sender: self)
             
         }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if (segue.identifier=="show_week") {
                 let tabCtrl: UITabBarController = segue.destination as! UITabBarController
                 let destinationVC = tabCtrl.viewControllers![0] as! MenuViewController
@@ -103,8 +143,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 
                 //}
             }
+          */
     }
    
 
-}
+
 

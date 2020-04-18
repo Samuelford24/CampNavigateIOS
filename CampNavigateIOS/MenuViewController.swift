@@ -27,6 +27,8 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
            super.viewDidLoad()
 
            // Do any additional setup after loading the view.
+        let defaults = UserDefaults.standard
+        passedReference = defaults.object(forKey: "WeekReference") as! String
         retrieveData()
        }
     
