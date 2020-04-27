@@ -137,40 +137,54 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
-		<key>Pods-CampNavigateIOS-CampNavigateIOSUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>26</integer>
-		</dict>
-		<key>Pods-CampNavigateIOS.xcscheme</key>
+		<key>OneSignal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
-		<key>Pods-CampNavigateIOSTests.xcscheme</key>
+		<key>Pods-CampNavigateIOS-CampNavigateIOSUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>PromisesObjC.xcscheme</key>
+		<key>Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
-		<key>Protobuf.xcscheme</key>
+		<key>Pods-CampNavigateIOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>Pods-CampNavigateIOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>29</integer>
+		</dict>
+		<key>PromisesObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>Protobuf.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>31</integer>
 		</dict>
 		<key>abseil.xcscheme</key>
 		<dict>

@@ -8,8 +8,11 @@ pod 'Firebase/Analytics'
 pod 'Firebase/Firestore'
 pod 'Firebase/Messaging'
 pod 'Firebase/InAppMessaging'
+pod 'OneSignal', '>= 2.11.2', '< 3.0'
   # Pods for CampNavigateIOS
-
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
+end
   target 'CampNavigateIOSTests' do
     inherit! :search_paths
     # Pods for testing

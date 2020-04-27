@@ -105,24 +105,24 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         switch indexPath.row {
             case 0:
             weekReference="Week1"
-            case 0:
+            case 1:
             weekReference="Week2"
-            case 0:
+            case 2:
             weekReference="Week3"
-            case 0:
+            case 3:
             weekReference="Week4"
-            case 0:
+            case 4:
             weekReference="Week5"
-            case 0:
+            case 5:
             weekReference="Week6"
-            case 0:
+            case 6:
             weekReference="Week7"
-            case 0:
+            case 7:
             weekReference="Week8"
-            case 0:
+            case 8:
             weekReference="Week9"
-            case 0:
-            weekReference="Week10"
+            case 9:
+            weekReference="week"
         default:
             weekReference="none"
         }
@@ -145,6 +145,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             }
           */
     }
+
    
 
 

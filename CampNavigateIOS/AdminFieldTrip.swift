@@ -25,7 +25,7 @@ class AdminFieldTrip: UIViewController {
     let weekRef=week.text!
                 if(weekRef=="Week1"||weekRef=="Week2"||weekRef=="Week3"||weekRef=="Week4"||weekRef=="Week5"||weekRef=="Week6"||weekRef=="Week7"||weekRef=="Week8"||weekRef=="Week9"||weekRef=="Week"){
                 let b=Firestore.firestore()
-                    b.collection(week.text!).document("Menu").collection("MenuEntries").addDocument(data: [
+                    b.collection(week.text!).document("FieldTrips").collection("FieldTripEntries").addDocument(data: [
                         "week": week.text!,
                     "day": day.text!,
                     "where": `where`.text!,

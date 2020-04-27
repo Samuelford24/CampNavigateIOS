@@ -19,7 +19,9 @@ class MovieCell: UICollectionViewCell{
 
     
 }
-class Moview: UIViewController {
+class Moview: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
     @IBOutlet weak var cv: UICollectionView!
     var movieArray=[Movie]()
     @IBOutlet weak var loading: UIActivityIndicatorView!
@@ -34,7 +36,7 @@ class Moview: UIViewController {
         }
         func retrieveData(){
             self.loading.startAnimating()
-            let reference = Firestore.firestore().collection(passedReference).document("FieldTrips").collection("FieldTripEntries").addSnapshotListener(){ querySnapshot, error in
+            let reference = Firestore.firestore().collection(passedReference).document("Movies").collection("MovieEntries").addSnapshotListener(){ querySnapshot, error in
            
                 guard let snapshot = querySnapshot else {
                     print("Error retreiving snapshots \(error!)")
@@ -57,12 +59,13 @@ class Moview: UIViewController {
             }
             
               }
+    
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
           return  movieArray.count
         }
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ft", for: indexPath) as! MovieCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "movie", for: indexPath) as! MovieCell
                let movie = movieArray[indexPath.row]
             cell.k2?.text="K-2nd: " + movie.k2!
             cell.th5?.text="3rd-5th: " + movie.three5!

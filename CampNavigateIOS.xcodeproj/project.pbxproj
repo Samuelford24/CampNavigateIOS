@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E14DA84245638BD004F7505 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14DA83245638BD004F7505 /* NotificationService.swift */; };
+		3E14DA88245638BD004F7505 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E14DA81245638BD004F7505 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3E24E21324394E2F002F8E5C /* FIeldTripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E21224394E2F002F8E5C /* FIeldTripController.swift */; };
 		3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E214243BFF37002F8E5C /* AdminLogin.swift */; };
 		3E24E217243C05D0002F8E5C /* AdminMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E216243C05D0002F8E5C /* AdminMenu.swift */; };
@@ -32,12 +34,21 @@
 		3EE29A0C2448EE8700A75DBF /* AccessCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE29A0B2448EE8700A75DBF /* AccessCode.swift */; };
 		3EFCC883244A7FF100D2AF0E /* Moview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC882244A7FF100D2AF0E /* Moview.swift */; };
 		3EFCC885244A827200D2AF0E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC884244A827200D2AF0E /* Movie.swift */; };
+		3EFCC889244B462600D2AF0E /* AdminMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC888244B462600D2AF0E /* AdminMovies.swift */; };
+		4E63730D4138E4A27C98E77B /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDFC2071FEAC38864C7DA4A /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */; };
 		B075416BACAF780B75D103BC /* Pods_CampNavigateIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */; };
 		E82766E6C2E14E50AE078CC7 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */; };
 		FDDDCEC4C492AE8C9B1DEC26 /* Pods_CampNavigateIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3E14DA86245638BD004F7505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECCC534243804F2009E24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E14DA80245638BD004F7505;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		3ECCC555243804F5009E24C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3ECCC534243804F2009E24C8 /* Project object */;
@@ -54,9 +65,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3E14DA8C245638BD004F7505 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E14DA88245638BD004F7505 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		234AA44EB9484229CF41DC1B /* Pods-CampNavigateIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.release.xcconfig"; sourceTree = "<group>"; };
 		27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14DA7C24561287004F7505 /* Camp Navigate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Camp Navigate.entitlements"; sourceTree = "<group>"; };
+		3E14DA81245638BD004F7505 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14DA83245638BD004F7505 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		3E14DA85245638BD004F7505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E24E21224394E2F002F8E5C /* FIeldTripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIeldTripController.swift; sourceTree = "<group>"; };
 		3E24E214243BFF37002F8E5C /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
 		3E24E216243C05D0002F8E5C /* AdminMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMenu.swift; sourceTree = "<group>"; };
@@ -88,16 +117,28 @@
 		3EE29A0B2448EE8700A75DBF /* AccessCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessCode.swift; sourceTree = "<group>"; };
 		3EFCC882244A7FF100D2AF0E /* Moview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moview.swift; sourceTree = "<group>"; };
 		3EFCC884244A827200D2AF0E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3EFCC888244B462600D2AF0E /* AdminMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMovies.swift; sourceTree = "<group>"; };
 		7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_CampNavigateIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40E4863802C21D6E655BB60 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE6A19C7AC665BC3BAFE5C11 /* Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8EA42C35C6973F5083A4557 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		DBDFC2071FEAC38864C7DA4A /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E14DA7E245638BD004F7505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E63730D4138E4A27C98E77B /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ECCC539243804F2009E24C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,12 +166,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E14DA82245638BD004F7505 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3E14DA83245638BD004F7505 /* NotificationService.swift */,
+				3E14DA85245638BD004F7505 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		3ECCC533243804F2009E24C8 = {
 			isa = PBXGroup;
 			children = (
 				3ECCC53E243804F2009E24C8 /* CampNavigateIOS */,
 				3ECCC557243804F5009E24C8 /* CampNavigateIOSTests */,
 				3ECCC562243804F5009E24C8 /* CampNavigateIOSUITests */,
+				3E14DA82245638BD004F7505 /* OneSignalNotificationServiceExtension */,
 				3ECCC53D243804F2009E24C8 /* Products */,
 				988BE07D5DD279AF20DD38E4 /* Pods */,
 				61817B1BAEFAF9098BDC75A7 /* Frameworks */,
@@ -143,6 +194,7 @@
 				3ECCC53C243804F2009E24C8 /* Camp Navigate.app */,
 				3ECCC554243804F5009E24C8 /* CampNavigateIOSTests.xctest */,
 				3ECCC55F243804F5009E24C8 /* CampNavigateIOSUITests.xctest */,
+				3E14DA81245638BD004F7505 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +202,7 @@
 		3ECCC53E243804F2009E24C8 /* CampNavigateIOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E14DA7C24561287004F7505 /* Camp Navigate.entitlements */,
 				3ECCC53F243804F2009E24C8 /* AppDelegate.swift */,
 				3ECCC541243804F2009E24C8 /* SceneDelegate.swift */,
 				3EE29A0B2448EE8700A75DBF /* AccessCode.swift */,
@@ -165,6 +218,7 @@
 				3E7CA087243EB6C700A1EACA /* Announcement.swift */,
 				3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */,
 				3E24E21224394E2F002F8E5C /* FIeldTripController.swift */,
+				3EFCC888244B462600D2AF0E /* AdminMovies.swift */,
 				3ECCC547243804F2009E24C8 /* Main.storyboard */,
 				3EFCC882244A7FF100D2AF0E /* Moview.swift */,
 				3EFCC884244A827200D2AF0E /* Movie.swift */,
@@ -202,6 +256,7 @@
 				27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */,
 				7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */,
 				B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */,
+				DBDFC2071FEAC38864C7DA4A /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,6 +270,8 @@
 				BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */,
 				C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */,
 				B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */,
+				D8EA42C35C6973F5083A4557 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				B40E4863802C21D6E655BB60 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -222,6 +279,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3E14DA80245638BD004F7505 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E14DA89245638BD004F7505 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				4232586FAAC57663E936292C /* [CP] Check Pods Manifest.lock */,
+				3E14DA7D245638BD004F7505 /* Sources */,
+				3E14DA7E245638BD004F7505 /* Frameworks */,
+				3E14DA7F245638BD004F7505 /* Resources */,
+				7C70CFE05D04D712EE34EDF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 3E14DA81245638BD004F7505 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		3ECCC53B243804F2009E24C8 /* CampNavigateIOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ECCC568243804F5009E24C8 /* Build configuration list for PBXNativeTarget "CampNavigateIOS" */;
@@ -232,10 +308,12 @@
 				3ECCC53A243804F2009E24C8 /* Resources */,
 				176E02A3419AE9EA5F91D75F /* [CP] Embed Pods Frameworks */,
 				5B6E0E8AF5D5944247EED425 /* [CP] Copy Pods Resources */,
+				3E14DA8C245638BD004F7505 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3E14DA87245638BD004F7505 /* PBXTargetDependency */,
 			);
 			name = CampNavigateIOS;
 			productName = CampNavigateIOS;
@@ -292,6 +370,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Camp Navigate";
 				TargetAttributes = {
+					3E14DA80245638BD004F7505 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					3ECCC53B243804F2009E24C8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -321,11 +402,19 @@
 				3ECCC53B243804F2009E24C8 /* CampNavigateIOS */,
 				3ECCC553243804F5009E24C8 /* CampNavigateIOSTests */,
 				3ECCC55E243804F5009E24C8 /* CampNavigateIOSUITests */,
+				3E14DA80245638BD004F7505 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3E14DA7F245638BD004F7505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ECCC53A243804F2009E24C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,6 +499,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4232586FAAC57663E936292C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5B6E0E8AF5D5944247EED425 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +536,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C70CFE05D04D712EE34EDF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B2E9CD2EB855D485E83B857 /* [CP] Embed Pods Frameworks */ = {
@@ -491,6 +619,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3E14DA7D245638BD004F7505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14DA84245638BD004F7505 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ECCC538243804F2009E24C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,6 +639,7 @@
 				3ECCC57424380D37009E24C8 /* MenuViewController.swift in Sources */,
 				3EE29A0C2448EE8700A75DBF /* AccessCode.swift in Sources */,
 				3E7CA088243EB6C700A1EACA /* Announcement.swift in Sources */,
+				3EFCC889244B462600D2AF0E /* AdminMovies.swift in Sources */,
 				3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */,
 				3ECCC544243804F2009E24C8 /* FirstViewController.swift in Sources */,
 				3ECCC540243804F2009E24C8 /* AppDelegate.swift in Sources */,
@@ -536,6 +673,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3E14DA87245638BD004F7505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E14DA80245638BD004F7505 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 3E14DA86245638BD004F7505 /* PBXContainerItemProxy */;
+		};
 		3ECCC556243804F5009E24C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3ECCC53B243804F2009E24C8 /* CampNavigateIOS */;
@@ -568,6 +710,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3E14DA8A245638BD004F7505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EA42C35C6973F5083A4557 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E14DA8B245638BD004F7505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40E4863802C21D6E655BB60 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6884YGK6GN;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3ECCC566243804F5009E24C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -686,7 +868,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CampNavigateIOS/Camp Navigate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
@@ -705,7 +889,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 234AA44EB9484229CF41DC1B /* Pods-CampNavigateIOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CampNavigateIOS/Camp Navigate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
@@ -811,6 +997,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3E14DA89245638BD004F7505 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14DA8A245638BD004F7505 /* Debug */,
+				3E14DA8B245638BD004F7505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3ECCC537243804F2009E24C8 /* Build configuration list for PBXProject "CampNavigateIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
