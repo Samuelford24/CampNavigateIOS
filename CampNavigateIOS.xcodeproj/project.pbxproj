@@ -13,6 +13,8 @@
 		3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E214243BFF37002F8E5C /* AdminLogin.swift */; };
 		3E24E217243C05D0002F8E5C /* AdminMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E216243C05D0002F8E5C /* AdminMenu.swift */; };
 		3E24E219243C05DD002F8E5C /* AdminFieldTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */; };
+		3E4BE66A2458F228000CEBFE /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BE6692458F228000CEBFE /* SettingsTableViewController.swift */; };
+		3E4BE66C2458FF41000CEBFE /* AdminPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BE66B2458FF41000CEBFE /* AdminPictures.swift */; };
 		3E4C3BE42442A70F00AB1342 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C3BE32442A70F00AB1342 /* Staff.swift */; };
 		3E7CA086243EA79A00A1EACA /* AdminAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA085243EA79A00A1EACA /* AdminAnnouncement.swift */; };
 		3E7CA088243EB6C700A1EACA /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA087243EB6C700A1EACA /* Announcement.swift */; };
@@ -91,6 +93,8 @@
 		3E24E214243BFF37002F8E5C /* AdminLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
 		3E24E216243C05D0002F8E5C /* AdminMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMenu.swift; sourceTree = "<group>"; };
 		3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFieldTrip.swift; sourceTree = "<group>"; };
+		3E4BE6692458F228000CEBFE /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3E4BE66B2458FF41000CEBFE /* AdminPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPictures.swift; sourceTree = "<group>"; };
 		3E4C3BE32442A70F00AB1342 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
 		3E7CA085243EA79A00A1EACA /* AdminAnnouncement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAnnouncement.swift; sourceTree = "<group>"; };
 		3E7CA087243EB6C700A1EACA /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
@@ -217,9 +221,11 @@
 				3ECCC57524380D4F009E24C8 /* Menu.swift */,
 				3E4C3BE32442A70F00AB1342 /* Staff.swift */,
 				3E24E214243BFF37002F8E5C /* AdminLogin.swift */,
+				3E4BE6692458F228000CEBFE /* SettingsTableViewController.swift */,
 				3E7CA087243EB6C700A1EACA /* Announcement.swift */,
 				3E24E218243C05DD002F8E5C /* AdminFieldTrip.swift */,
 				3E24E21224394E2F002F8E5C /* FIeldTripController.swift */,
+				3E4BE66B2458FF41000CEBFE /* AdminPictures.swift */,
 				3EFCC888244B462600D2AF0E /* AdminMovies.swift */,
 				3E7EA5B32457B68300FE8AEA /* Pictures.swift */,
 				3ECCC547243804F2009E24C8 /* Main.storyboard */,
@@ -592,8 +598,10 @@
 				3ECCC57824380D6B009E24C8 /* FieldTrip.swift in Sources */,
 				3ECCC544243804F2009E24C8 /* FirstViewController.swift in Sources */,
 				3ECCC540243804F2009E24C8 /* AppDelegate.swift in Sources */,
+				3E4BE66C2458FF41000CEBFE /* AdminPictures.swift in Sources */,
 				3E7EA5B42457B68300FE8AEA /* Pictures.swift in Sources */,
 				3E24E217243C05D0002F8E5C /* AdminMenu.swift in Sources */,
+				3E4BE66A2458F228000CEBFE /* SettingsTableViewController.swift in Sources */,
 				3E4C3BE42442A70F00AB1342 /* Staff.swift in Sources */,
 				3E24E215243BFF37002F8E5C /* AdminLogin.swift in Sources */,
 				3ECCC57A24380DA7009E24C8 /* ViewController.swift in Sources */,
