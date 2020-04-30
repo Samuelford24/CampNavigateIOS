@@ -20,7 +20,14 @@ class AdminFieldTrip: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+      let Tap:UITapGestureRecognizer = UITapGestureRecognizer (target: self, action: #selector(DismissKeyboard))
+             view.addGestureRecognizer(Tap)
+             // Do any additional setup after loading the view.
+         }
+         
+         @objc func DismissKeyboard()  {
+             view.endEditing(true)
+         }
     @IBAction func addFieldTrip(_ sender: Any) {
     let weekRef=week.text!
                 if(weekRef=="Week1"||weekRef=="Week2"||weekRef=="Week3"||weekRef=="Week4"||weekRef=="Week5"||weekRef=="Week6"||weekRef=="Week7"||weekRef=="Week8"||weekRef=="Week9"||weekRef=="Week"){

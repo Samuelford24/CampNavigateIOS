@@ -15,7 +15,14 @@ class AdminPictures: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+     let Tap:UITapGestureRecognizer = UITapGestureRecognizer (target: self, action: #selector(DismissKeyboard))
+             view.addGestureRecognizer(Tap)
+             // Do any additional setup after loading the view.
+         }
+         
+         @objc func DismissKeyboard()  {
+             view.endEditing(true)
+         }
     @IBAction func updateLink(_ sender: Any) {
         Firestore.firestore().collection("Pictures").document("Link").updateData(["link":link.text!]){ err in
         if let err = err {

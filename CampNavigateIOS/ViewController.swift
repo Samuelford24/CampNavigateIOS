@@ -17,6 +17,7 @@ class CollectionViewCell: UICollectionViewCell {
 }
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+   
     var weekReference: String!
     let locationNames = ["Week 1: Be the Change", "Week 2: Courage to Encourage", "Week 3: Knowledge Is Power", "Week 4: Think Big", "Week 5: Home of the Brave", "Week 6: Christmas in July", "Week 7: SUPER Healthy Habits", "Week 8: Team Work Makes the Dream Work", "Week 9: Camps Got Talent", "Week 10: Your Family is My Family"]
     

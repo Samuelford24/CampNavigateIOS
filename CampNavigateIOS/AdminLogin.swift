@@ -15,7 +15,14 @@ class AdminLogin: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+      let Tap:UITapGestureRecognizer = UITapGestureRecognizer (target: self, action: #selector(DismissKeyboard))
+             view.addGestureRecognizer(Tap)
+             // Do any additional setup after loading the view.
+         }
+         
+         @objc func DismissKeyboard()  {
+             view.endEditing(true)
+         }
     @IBAction func login(_ sender: Any) {
         Firestore.firestore().collection("Admin").document("Password").getDocument()
     { document, error in

@@ -27,7 +27,14 @@ class AccessCode: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+      let Tap:UITapGestureRecognizer = UITapGestureRecognizer (target: self, action: #selector(DismissKeyboard))
+             view.addGestureRecognizer(Tap)
+             // Do any additional setup after loading the view.
+         }
+         
+         @objc func DismissKeyboard()  {
+             view.endEditing(true)
+         }
    
     @IBAction func verify(_ sender: Any) {
         let defaults=UserDefaults.standard
