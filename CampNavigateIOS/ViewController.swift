@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import OneSignal
 class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var locationImage: UIImageView!
@@ -29,7 +30,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     override func viewDidLoad() {
          
-       
+       let status: OSPermissionSubscriptionState = OneSignal.getPermissionSubscriptionState()
+
+       let hasPrompted = status.permissionStatus.hasPrompted
+       print("hasPrompted = \(hasPrompted)")
+       if hasPrompted == false {
+         OneSignal.addTrigger("prompt_ios", withValue: "true")
+       }
           /*    let ac = UIAlertController(title: "Please Enter Code", message: nil, preferredStyle: UIAlertController.Style.alert)
                 ac.addTextField { (textField : UITextField!) -> Void in
                        textField.placeholder = "Enter code"
