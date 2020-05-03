@@ -11,7 +11,9 @@ import Firebase
 class Pictures: UIViewController {
 
   
+   
     @IBOutlet weak var tv: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,11 +22,11 @@ class Pictures: UIViewController {
     }
     
     func retrieveLink(){
-        Firestore.firestore().collection("Pictures").document("Link").getDocument { (document, error) in
+        Firestore.firestore().collection("Pictures").document("Link").addSnapshotListener() { (document, error) in
             if let document = document, document.exists {
                 let s =   document.get("link") as! String
                 print(s)
-                self.tv.text=s
+                self.tv.text="Link to Pictures: " + s
               
             } else {
                 print("Document does not exist")

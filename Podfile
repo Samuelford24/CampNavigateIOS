@@ -4,16 +4,17 @@
 target 'CampNavigateIOS' do
  
   use_frameworks!
-pod 'Firebase'
+
 pod 'Firebase/Analytics'
 pod 'Firebase/Firestore'
-  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+ 
 
+ #Pods for CampNavigateIOS
+ pod 'OneSignal', '>= 2.11.2', '< 3.0'
 
-# Pods for CampNavigateIOS
 
 target 'OneSignalNotificationServiceExtension' do
-   pod 'OneSignal', '>= 2.6.2', '< 3.0'
+ pod 'OneSignal', '>= 2.11.2', '< 3.0'
 end
 
 

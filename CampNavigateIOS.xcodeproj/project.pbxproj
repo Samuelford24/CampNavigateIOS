@@ -39,8 +39,8 @@
 		3EFCC885244A827200D2AF0E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC884244A827200D2AF0E /* Movie.swift */; };
 		3EFCC889244B462600D2AF0E /* AdminMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCC888244B462600D2AF0E /* AdminMovies.swift */; };
 		B075416BACAF780B75D103BC /* Pods_CampNavigateIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */; };
-		C2E4EFF141C4E78113B96116 /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE744E367C90A1AE5F5918E /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */; };
 		E82766E6C2E14E50AE078CC7 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */; };
+		F18AC6FBAB41FF600FF0983B /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD0F32B17039F95AAE69091 /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */; };
 		FDDDCEC4C492AE8C9B1DEC26 /* Pods_CampNavigateIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,16 +124,16 @@
 		3EFCC882244A7FF100D2AF0E /* Moview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moview.swift; sourceTree = "<group>"; };
 		3EFCC884244A827200D2AF0E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3EFCC888244B462600D2AF0E /* AdminMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMovies.swift; sourceTree = "<group>"; };
+		524BA1940C7B365728DBB664 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		630FEC3CE3761AC494096325 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		7117C12CCC71D6058547CA13 /* Pods-CampNavigateIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_CampNavigateIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2857D8AF9CBE4A9A6A4E90 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		9AE744E367C90A1AE5F5918E /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE6A19C7AC665BC3BAFE5C11 /* Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOSTests/Pods-CampNavigateIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED78661D70AE6034DF256EC1 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		EFD0F32B17039F95AAE69091 /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E4EFF141C4E78113B96116 /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */,
+				F18AC6FBAB41FF600FF0983B /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 				27F557973C2A74BC13C37F5D /* Pods_CampNavigateIOS.framework */,
 				7AAC3305B7A3C1E34D8016F5 /* Pods_CampNavigateIOS_CampNavigateIOSUITests.framework */,
 				B1D5031CD6187777C1FEE8B2 /* Pods_CampNavigateIOSTests.framework */,
-				9AE744E367C90A1AE5F5918E /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */,
+				EFD0F32B17039F95AAE69091 /* Pods_CampNavigateIOS_OneSignalNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,8 +279,8 @@
 				BE01F1A0BECD750D598B32DE /* Pods-CampNavigateIOS-CampNavigateIOSUITests.release.xcconfig */,
 				C8F5AA0D509181D9EEB3F7A8 /* Pods-CampNavigateIOSTests.debug.xcconfig */,
 				B1830DB9FA81B144CBF3AD2C /* Pods-CampNavigateIOSTests.release.xcconfig */,
-				8E2857D8AF9CBE4A9A6A4E90 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				ED78661D70AE6034DF256EC1 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */,
+				524BA1940C7B365728DBB664 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				630FEC3CE3761AC494096325 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E14DA89245638BD004F7505 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				D51BEB98DB5DCAAFFB3D32D1 /* [CP] Check Pods Manifest.lock */,
+				35FB3C7B426AAA7010B183FA /* [CP] Check Pods Manifest.lock */,
 				3E14DA7D245638BD004F7505 /* Sources */,
 				3E14DA7E245638BD004F7505 /* Frameworks */,
 				3E14DA7F245638BD004F7505 /* Resources */,
@@ -314,8 +314,8 @@
 				3ECCC538243804F2009E24C8 /* Sources */,
 				3ECCC539243804F2009E24C8 /* Frameworks */,
 				3ECCC53A243804F2009E24C8 /* Resources */,
-				176E02A3419AE9EA5F91D75F /* [CP] Embed Pods Frameworks */,
 				3E14DA8C245638BD004F7505 /* Embed App Extensions */,
+				A1376DD1AA56DA22F1B29EB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,7 +354,7 @@
 				3ECCC55B243804F5009E24C8 /* Sources */,
 				3ECCC55C243804F5009E24C8 /* Frameworks */,
 				3ECCC55D243804F5009E24C8 /* Resources */,
-				8B2E9CD2EB855D485E83B857 /* [CP] Embed Pods Frameworks */,
+				0BF54860618D8DDE580F56D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -449,21 +449,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		176E02A3419AE9EA5F91D75F /* [CP] Embed Pods Frameworks */ = {
+		0BF54860618D8DDE580F56D2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		28E4895A2096172197965D6D /* [CP] Check Pods Manifest.lock */ = {
@@ -488,21 +488,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B2E9CD2EB855D485E83B857 /* [CP] Embed Pods Frameworks */ = {
+		35FB3C7B426AAA7010B183FA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS-CampNavigateIOSUITests/Pods-CampNavigateIOS-CampNavigateIOSUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94BEBCC3EA51AFDAB7829175 /* [CP] Check Pods Manifest.lock */ = {
@@ -527,26 +532,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D51BEB98DB5DCAAFFB3D32D1 /* [CP] Check Pods Manifest.lock */ = {
+		A1376DD1AA56DA22F1B29EB2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CampNavigateIOS-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampNavigateIOS/Pods-CampNavigateIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DCE45086ADB38880808E7DBE /* [CP] Check Pods Manifest.lock */ = {
@@ -670,10 +670,11 @@
 /* Begin XCBuildConfiguration section */
 		3E14DA8A245638BD004F7505 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2857D8AF9CBE4A9A6A4E90 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			baseConfigurationReference = 524BA1940C7B365728DBB664 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -681,6 +682,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -691,10 +693,11 @@
 		};
 		3E14DA8B245638BD004F7505 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED78661D70AE6034DF256EC1 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */;
+			baseConfigurationReference = 630FEC3CE3761AC494096325 /* Pods-CampNavigateIOS-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -702,6 +705,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -832,11 +836,68 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "CampNavigateIOS/Camp Navigate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
 				PRODUCT_NAME = "Camp Navigate";
@@ -853,11 +914,68 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "CampNavigateIOS/Camp Navigate.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6884YGK6GN;
 				INFOPLIST_FILE = CampNavigateIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = samuel.CampNavigateIOS;
 				PRODUCT_NAME = "Camp Navigate";
