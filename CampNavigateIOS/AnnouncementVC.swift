@@ -35,7 +35,7 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
                  return
              }
 
-             //print("Current data: \(snapshot.documents.map { $0.data() })")
+            
          self.AnnouncementArray.removeAll()
              for document in snapshot.documents{
                  let  temp = Announcement(dictionary: document.data())
@@ -64,7 +64,7 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         
           
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "announcement", for: indexPath) as! AnnouncementCell
-            let AnnouncementItem = AnnouncementArray[indexPath.row]
+        let AnnouncementItem = AnnouncementArray[indexPath.row]
       cell.contentView.layer.cornerRadius = 4.0
                   cell.contentView.layer.borderWidth = 1.0
                   cell.contentView.layer.borderColor = UIColor.black.cgColor
@@ -77,7 +77,7 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
                   cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
                   
            
-        print(AnnouncementItem.announcement)
+        
             
             cell.announcement?.text=AnnouncementItem.announcement
         cell.timestamp?.text=AnnouncementItem.timestamp

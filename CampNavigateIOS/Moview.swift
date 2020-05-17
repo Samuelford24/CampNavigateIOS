@@ -10,13 +10,15 @@ import UIKit
 import Firebase
 class MovieCell: UICollectionViewCell{
 
-@IBOutlet weak var k2: UILabel!
-    
-    @IBOutlet weak var th5: UILabel!
-    @IBOutlet weak var ms: UILabel!
-    
 
+    
+    @IBOutlet weak var k2: UITextView!
 
+    
+    @IBOutlet weak var th5: UITextView!
+    
+    @IBOutlet weak var ms: UITextView!
+    
     
 }
 class Moview: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {

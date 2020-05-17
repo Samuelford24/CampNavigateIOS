@@ -11,10 +11,9 @@ import Firebase
 
 class MenuCell: UICollectionViewCell {
     @IBOutlet weak var day: UILabel!
-    @IBOutlet weak var breakfast: UILabel!
-    @IBOutlet weak var lunch: UILabel!
-    
-    
+   
+    @IBOutlet weak var breakfast: UITextView!
+    @IBOutlet weak var lunch: UITextView!
 }
 class MenuViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var passedReference: String!

@@ -10,12 +10,14 @@ import UIKit
 import Firebase
 class FieldTripCell: UICollectionViewCell {
     @IBOutlet weak var day: UILabel!
-    @IBOutlet weak var `where`: UILabel!
-    @IBOutlet weak var when: UILabel!
-    @IBOutlet weak var bring: UILabel!
-    @IBOutlet weak var departing: UILabel!
     
+    @IBOutlet weak var `where`: UITextView!
+    
+    @IBOutlet weak var departing: UITextView!
 
+    @IBOutlet weak var when: UITextView!
+    
+    @IBOutlet weak var bring: UITextView!
 }
 class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     
