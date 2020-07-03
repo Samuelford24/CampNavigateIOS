@@ -40,9 +40,13 @@ class AdminAnnouncement: UIViewController{
     let timeStamp=result + " at " + time
         Firestore.firestore().collection("Announcements").addDocument(data: [
             "announcement": announceMent,
-            "timeStamp":timeStamp
+            "timeStamp":timeStamp,"SortTimeStamp":FieldValue.serverTimestamp(),
+            
+           
+          
            
         ]) { err in
+           
             if let err = err {
                  let ac = UIAlertController(title: "Upload Error", message:"Please try again", preferredStyle: UIAlertController.Style.alert)
                       let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
@@ -64,6 +68,7 @@ class AdminAnnouncement: UIViewController{
             }
         }
     }
+    
     
 
     /*

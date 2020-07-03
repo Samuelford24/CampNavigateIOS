@@ -27,33 +27,30 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
    
     func retrieveData(){
         self.loading.startAnimating()
-      
-         let reference = Firestore.firestore().collection("Announcements").addSnapshotListener(){ querySnapshot, error in
-        
-             guard let snapshot = querySnapshot else {
+        let reference = Firestore.firestore().collection("Announcements").order(by: "SortTimeStamp", descending: true).addSnapshotListener(){ querySnapshot, error in
+        guard let snapshot = querySnapshot else {
                  print("Error retreiving snapshots \(error!)")
                  return
              }
 
-            
          self.AnnouncementArray.removeAll()
              for document in snapshot.documents{
                  let  temp = Announcement(dictionary: document.data())
-                 
-         
-                 
-                 self.AnnouncementArray.append(temp)
-                 
-                
+                   self.AnnouncementArray.append(temp)
              }
               self.loading.stopAnimating()
             
          self.CV.reloadData()
-            
-          
-         }
+     
+            let ac = UIAlertController(title: "There aren't any announcements", message:"Please check back later", preferredStyle: UIAlertController.Style.alert)
+                              let OKaction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { action in
+                                  ac.dismiss(animated: true, completion: nil)               })
+                              
+        }
+    
          
            
+    
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print(AnnouncementArray.count)

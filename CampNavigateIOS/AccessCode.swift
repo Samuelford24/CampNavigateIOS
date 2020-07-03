@@ -18,7 +18,8 @@ class AccessCode: UIViewController {
         print(usercode)
         
         if (usercode != nil) {
-             let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab")
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab")
+            vc!.modalPresentationStyle = .fullScreen
                      self.present(vc!, animated: true, completion: nil)
             
         }

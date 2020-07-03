@@ -33,7 +33,7 @@ class MenuViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     func retrieveData()  {
         self.loading.startAnimating()
-        Firestore.firestore().collection(passedReference).document("Menu").collection("MenuEntries").addSnapshotListener(){ querySnapshot, error in
+        Firestore.firestore().collection(passedReference).document("Menu").collection("MenuEntries").order(by: "SortTimeStamp", descending: false).addSnapshotListener(){ querySnapshot, error in
         print(querySnapshot)
             guard let snapshot = querySnapshot else {
                 print("Error retreiving snapshots \(error!)")

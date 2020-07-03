@@ -34,7 +34,7 @@ class AdminMenu: UIViewController {
             b.collection(week.text!).document("Menu").collection("MenuEntries").addDocument(data: [
             "day": day.text!,
             "lunch": lunch.text!,
-            "breakfast": breakfast.text!,
+            "breakfast": breakfast.text!,"SortTimeStamp":FieldValue.serverTimestamp()
            
         ]) { err in
             if let err = err {

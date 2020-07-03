@@ -38,7 +38,7 @@ class AdminFieldTrip: UIViewController {
                     "where": `where`.text!,
                     "when": when.text!,
                     "bring": bring.text!,
-                    "departing": departing.text!
+                    "departing": departing.text!,"SortTimeStamp":FieldValue.serverTimestamp(),
                    
                 ]) { err in
                     if let err = err {

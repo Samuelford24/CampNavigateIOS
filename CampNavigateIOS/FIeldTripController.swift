@@ -36,7 +36,7 @@ class FIeldTripController: UIViewController,UICollectionViewDataSource,UICollect
     }
     func retrieveData(){
         self.loading.startAnimating()
-        let reference = Firestore.firestore().collection(passedReference).document("FieldTrips").collection("FieldTripEntries").addSnapshotListener(){ querySnapshot, error in
+        let reference = Firestore.firestore().collection(passedReference).document("FieldTrips").collection("FieldTripEntries").order(by: "SortTimeStamp", descending: false).addSnapshotListener(){ querySnapshot, error in
        
             guard let snapshot = querySnapshot else {
                 print("Error retreiving snapshots \(error!)")
