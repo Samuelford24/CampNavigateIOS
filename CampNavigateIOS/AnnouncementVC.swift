@@ -20,7 +20,7 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var CV: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+CV!.contentInset = UIEdgeInsets(top: 15, left: 0, bottom: 0, right: 0)
         // Do any additional setup after loading the view.
         retrieveData()
     }
@@ -62,15 +62,15 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
           
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "announcement", for: indexPath) as! AnnouncementCell
         let AnnouncementItem = AnnouncementArray[indexPath.row]
-      cell.contentView.layer.cornerRadius = 4.0
-                  cell.contentView.layer.borderWidth = 1.0
-                  cell.contentView.layer.borderColor = UIColor.black.cgColor
-                  cell.contentView.layer.masksToBounds = false
-                  cell.layer.shadowColor = UIColor.gray.cgColor
+      cell.contentView.layer.cornerRadius = 8.0
+                  //cell.contentView.layer.borderWidth = 1.0
+                  //cell.contentView.layer.borderColor = UIColor.black.cgColor
+        cell.contentView.layer.masksToBounds = true
+        cell.layer.shadowColor = UIColor.gray.cgColor
                   cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
                   cell.layer.shadowRadius = 4.0
                   cell.layer.shadowOpacity = 1.0
-                  cell.layer.masksToBounds = false
+                  cell.layer.masksToBounds = true
                   cell.layer.shadowPath = UIBezierPath(roundedRect: cell.bounds, cornerRadius: cell.contentView.layer.cornerRadius).cgPath
                   
            
@@ -78,7 +78,7 @@ class AnnouncementVC: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             cell.announcement?.text=AnnouncementItem.announcement
         cell.timestamp?.text=AnnouncementItem.timestamp
-           
+        cell.layer.cornerRadius = 8
             return cell
                 // let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "menu", for: indexPath) as! MenuCell
             //return cell
